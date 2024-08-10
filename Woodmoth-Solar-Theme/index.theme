@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Woodmoth-Solar-Theme
+Comment=Solarized inspired theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=NumixSolarizedDarkOrange
+MetacityTheme=NumixSolarizedDarkOrange
+IconTheme=Tela-circle-ubuntu-dark
+CursorTheme=GoogleDot-White
+ButtonLayout=close,minimize,maximize:menu
