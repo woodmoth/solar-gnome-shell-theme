@@ -1,0 +1,1 @@
+# solar-gnome-shell-theme
