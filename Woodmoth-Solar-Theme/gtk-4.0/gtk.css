@@ -297,7 +297,7 @@ entry:focus-within {
   background-color: rgba(253, 246, 227, 0.08);
   box-shadow: inset 0 0 0 2px transparent;
   color: #F6F6ED;
-  outline: 2px solid #FFF68F;
+  outline: 2px solid #FB8441;
   outline-offset: -2px;
 }
 
@@ -836,7 +836,7 @@ headerbar popover.background button:checked:hover:not(.suggested-action):not(.de
 
 headerbar popover.background button:checked:disabled:not(.suggested-action):not(.destructive-action):not(.flat), button:checked:disabled {
   outline-color: transparent;
-  background-color: rgba(246, 57, 57, 0.35);
+  background-color: rgba(60, 60, 55, 0.4);
   color: rgba(253, 246, 227, 0.5);
 }
 
@@ -1116,7 +1116,7 @@ button.card.keyboard-activating, button.card:active {
 
 button.card:checked {
   background-image: none;
-  background-color: #FFF68F;
+  background-color: #FB8441;
   color: #F6F6ED;
   border-color: #FFF68F;
 }
@@ -1851,7 +1851,7 @@ spinbutton:focus-within {
   background-color: rgba(253, 246, 227, 0.08);
   box-shadow: inset 0 0 0 2px transparent;
   color: #F6F6ED;
-  outline: 2px solid #FFF68F;
+  outline: 2px solid #FB8441;
   outline-offset: -2px;
 }
 
@@ -2195,7 +2195,7 @@ searchbar > revealer > box menubutton {
  ***************/
 headerbar button:not(.suggested-action):not(.destructive-action) {
   color: rgba(253, 246, 227, 0.7);
-  background-color: rgba(246, 57, 57, 0.4);
+  background-color: rgba(60, 60, 55, 0.7);
   border-radius: 12px;
   border: none;
   outline: none;
@@ -2233,7 +2233,7 @@ headerbar button:disabled:not(.suggested-action):not(.destructive-action) {
 }
 
 headerbar button:checked:not(.suggested-action):not(.destructive-action) {
-  background-color: #FFF68F;
+  background-color: #FB8441;
   color: rgba(17, 54, 73, 0.87);
   outline: none;
 }
@@ -2464,7 +2464,7 @@ headerbar switch {
 
 headerbar.selection-mode {
   transition: background-color 0.1ms 225ms, color 75ms cubic-bezier(0, 0, 0.2, 1);
-  background-color: #FFF68F;
+  background-color: #FB8441;
   color: #F6F6ED;
 }
 
@@ -3326,11 +3326,11 @@ tabbar tabbox > tabboxchild > tab {
 }
 
 tabbar tab.needs-attention {
-  background-image: radial-gradient(ellipse at bottom, rgba(253, 246, 227, 0.8), alpha(#FFF68F, 0.4) 10%, alpha(#FFF68F, 0) 30%);
+  background-image: radial-gradient(ellipse at bottom, rgba(253, 246, 227, 0.8), alpha(#FB8441, 0.4) 10%, alpha(#FB8441, 0) 30%);
 }
 
 tabbar tab.needs-attention:hover {
-  background-image: image(alpha(currentColor, 0.03)), radial-gradient(ellipse at bottom, rgba(253, 246, 227, 0.8), alpha(#FFF68F, 0.4) 10%, alpha(#FFF68F, 0) 30%);
+  background-image: image(alpha(currentColor, 0.03)), radial-gradient(ellipse at bottom, rgba(253, 246, 227, 0.8), alpha(#FB8441, 0.4) 10%, alpha(#FB8441, 0) 30%);
 }
 
 tabbar .start-action,
@@ -3399,7 +3399,7 @@ dnd tab {
 }
 
 dnd tab.needs-attention {
-  background-image: radial-gradient(ellipse at bottom, rgba(253, 246, 227, 0.8), alpha(#FFF68F, 0.4) 10%, alpha(#FFF68F, 0) 30%);
+  background-image: radial-gradient(ellipse at bottom, rgba(253, 246, 227, 0.8), alpha(#FB8441, 0.4) 10%, alpha(#FB8441, 0) 30%);
 }
 
 tabbar tab,
@@ -3590,7 +3590,7 @@ switch {
 }
 
 switch:checked {
-  background-color: #FFF68F;
+  background-color: #FB8441;
 }
 
 switch:disabled {
@@ -3666,21 +3666,21 @@ check:checked:hover, check:indeterminate:hover,
 radio:checked:hover,
 radio:indeterminate:hover {
   box-shadow: 0 0 0 6px rgba(255, 246, 143, 0.15);
-  background-color: #43bdd6;
+  background-color: #268BD2;
 }
 
 check:checked:active, check:indeterminate:active,
 radio:checked:active,
 radio:indeterminate:active {
   box-shadow: 0 0 0 6px rgba(255, 246, 143, 0.2);
-  background-color: #FFF68F;
+  background-color: #FB8441;
 }
 
 check:checked:disabled, check:indeterminate:disabled,
 radio:checked:disabled,
 radio:indeterminate:disabled {
   color: rgba(253, 246, 227, 0.7);
-  background-color: rgba(246, 57, 57, 0.35);
+  background-color: rgba(60, 60, 55, 0.5);
 }
 
 popover modelbutton.flat check, popover modelbutton.flat check:focus, popover modelbutton.flat check:hover, popover modelbutton.flat check:focus:hover, popover modelbutton.flat check:active, popover modelbutton.flat check:disabled, popover modelbutton.flat radio, popover modelbutton.flat radio:focus, popover modelbutton.flat radio:hover, popover modelbutton.flat radio:focus:hover, popover modelbutton.flat radio:active, popover modelbutton.flat radio:disabled {
@@ -4669,7 +4669,7 @@ row.expander:checked image.expander-row-arrow {
 }
 
 row.expander:checked image.expander-row-arrow:not(:disabled) {
-  color: #FFF68F;
+  color: #FB8441;
 }
 
 .osd row.expander:checked image.expander-row-arrow:not(:disabled) {
@@ -5774,7 +5774,7 @@ button.emoji-section {
 }
 
 button.emoji-section:checked {
-  color: #FFF68F;
+  color: #FB8441;
 }
 
 popover.emoji-picker emoji {
@@ -7434,7 +7434,7 @@ panelstatusbar > paneltogglebutton button {
 }
 
 .style-variant button.toggle:checked > stylevariantpreview > .wallpaper {
-  outline-color: #FFF68F;
+  outline-color: #FB8441;
 }
 
 playlistview scrollbar.overlay-indicator.dragging, playlistview scrollbar.overlay-indicator.hovering {
@@ -7787,7 +7787,7 @@ preferencesgroup > box button.background-preview-button.toggle:active {
 }
 
 preferencesgroup > box button.background-preview-button.toggle:checked {
-  outline-color: #FFF68F;
+  outline-color: #FB8441;
 }
 
 preferencesgroup > box .cutout-button {
@@ -8209,7 +8209,7 @@ themeselector checkbutton.follow:checked, themeselector checkbutton.light:checke
 panelthemeselector checkbutton.follow:checked,
 panelthemeselector checkbutton.light:checked,
 panelthemeselector checkbutton.dark:checked {
-  box-shadow: inset 0 0 0 2px #FFF68F;
+  box-shadow: inset 0 0 0 2px #FB8441;
 }
 
 themeselector checkbutton.follow,
@@ -8290,7 +8290,7 @@ themeswitcher checkbutton {
 }
 
 themeswitcher checkbutton:checked {
-  box-shadow: inset 0 0 0 2px #FFF68F;
+  box-shadow: inset 0 0 0 2px #FB8441;
 }
 
 themeswitcher checkbutton radio, themeswitcher checkbutton radio:hover, themeswitcher checkbutton radio:active, themeswitcher checkbutton radio:checked, themeswitcher checkbutton radio:checked:hover, themeswitcher checkbutton radio:checked:active {
@@ -8482,9 +8482,9 @@ read if you used those and something break with a version upgrade you're on your
 /* GTK NAMED COLORS
    ----------------
    use responsibly! */
-@define-color accent_bg_color #FFF68F;
+@define-color accent_bg_color #1E1E1C;
 @define-color accent_fg_color #F6F6ED;
-@define-color accent_color #FFF68F;
+@define-color accent_color #F63A39;
 @define-color destructive_bg_color #FF007A;
 @define-color destructive_fg_color #F6F6ED;
 @define-color destructive_color #FF007A;
