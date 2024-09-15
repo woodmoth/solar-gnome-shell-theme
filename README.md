@@ -11,7 +11,7 @@ A `.css` theme for Gnome Shell (46) extension.
 
 ## Preview
 
-![image](https://github.com/user-attachments/assets/dd6139a3-1110-48dd-868b-5a0f4678f138)
+![image](https://github.com/user-attachments/assets/8909c626-08f4-4429-920f-90bcf124482b)
 
 ![image](https://github.com/user-attachments/assets/3345c47a-5874-43cf-ae1d-eb8b0f54dc62)
 
